@@ -1,0 +1,285 @@
+@media screen and (max-width: 1450px){
+	.mailing{
+		margin-top: 60px;
+	}
+	.blockphone__phone{
+		margin-left: 15%;
+	}
+	
+}
+
+@media screen and (max-width: 1300px){
+	.info{
+		width: 61%;
+	}
+	.blockphone__phone{
+		margin-left: 8%;
+	}
+	.blockphone__bottom-spline{
+		left: 14%;
+	}
+}
+
+@media screen and (max-width: 1200px){
+	.info{
+		width: 59%;
+		margin-left: 4%;
+	}
+	.blockphone{
+		min-width:330px;
+	}
+	.blockphone__phone{
+		margin-left: 2%;
+	}
+	.blockphone__bottom-spline{
+		display: none;
+	}
+	.blockphone__contacts{
+		position: static;
+		margin-top: -10px;
+		justify-content: center;
+	}
+	.mailing{
+		margin-top: 80px;
+	}
+}
+
+@media screen and (max-width: 1130px){
+	.container{
+		width: 95%;
+	}
+	.blockphone{
+		left: 58%;
+	}
+	.blockphone__phone{
+		margin-left:5%;
+	}
+	.info__rushai{
+		margin-top: -10px;
+	}
+	.d-flex{
+		margin-top: 39px;
+	}
+	.info__googleplay{
+		margin-top: 33px;
+	}
+	.yellow-bg__blue{
+		display: block;
+		position: absolute;
+		bottom: -5.5%;
+		left: 6.29%;
+		margin-right: 0;
+	}
+	.d-flex-left{
+		width: 80%;
+	}
+	.d-flex-right{
+		display: none;
+	}
+	.mailing{
+		justify-content: center;
+		margin-bottom: 109px;
+	}
+	footer{
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 1050px){
+	.info{
+		width: 57%;
+	}
+	.blockphone{
+		left: 57%;
+	}
+}
+@media screen and (max-width: 950px){
+	.blockphone{
+		left: 56%;
+	}
+	.blockphone__phone{
+		margin-left:-5%;
+	}
+	.info{
+		width: 55%;
+	}
+}
+@media screen and (max-width: 850px){
+	.blockphone{
+		left: 54%;
+	}
+}
+@media screen and (max-width: 768px){
+	.container{
+		width: 91.15%; /*700/768*/
+		max-width: 700px;
+	}
+	.top-spline{
+		top: -6rem;
+		left: 16.42%; /*115/700*/
+	}
+	.info{
+		width: 50%;/*350/700*/
+		margin-left: 3.57%;/*25/700*/
+	}
+	.info__rushai{
+		margin-top: 0;
+	}
+	.d-flex{
+		margin-top: 39px;
+	}
+	.d-flex-left{
+		font-size: 12px;
+		width: 76.57%;/*268/350*/
+	}
+	.info__bottomtext{
+		font-size: 12px;
+	}
+	.info__googleplay{
+		margin-top: 33px;
+	}
+	.info__googleplay-hand{
+		margin-right: 20px;
+	}
+	.blockphone{
+		width: 47.14%;/*330/700*/
+		left: 49%;/*343/700*/
+		height: 720px;
+	}
+	.blockphone__phone{
+		margin-left: -25px;
+	}
+	.blockphone__facebook{
+		margin-left: 25px;
+	}
+}
+@media screen and (max-width: 730px){
+	.info{
+		width: 48%;
+		margin-left: 3.57%;/*25/700*/
+	}
+	.blockphone{
+		left: 47%;/*343/700*/
+	}
+	input[type = "email"]{
+		width: 190px;	
+	}
+	.yellow-bg__blue{
+		left: 5%;
+	}
+}
+@media screen and (max-width: 576px){
+	.container{
+		width: 88.88%;/*320/360*/
+		max-width: 320px;
+	}
+	.yellow-bg{
+		min-height: 700px;
+	}
+	.top-spline{
+		display: none;
+	}
+	.yellow-bg{
+		margin-top: 20px;
+	}
+	.facebook-small{
+		display: flex;
+		position: absolute;
+		top:0;
+		right: 85px;
+	}
+	.facebook-large{
+		display: none;
+	}
+	.d-flex{
+		margin-top: 31px;
+	}
+	.d-flex-left{
+		margin-left: 0;
+		width: 88.15%;/*269/320*/
+	}
+	.info{
+		padding-top: 10px;
+		padding-bottom: 0;
+		width: 92.5%;/*296/320*/ 
+	}
+	.info__toptext{
+		margin-top: 45px;
+	}
+	.info__googleplay{
+		justify-content: flex-start;
+	}
+	.info__bottomtext{
+		line-height: 22px;
+	}
+	.info__googleplay{
+		margin-top: 25px;
+	}
+	.blockphone{
+		min-width: 255px;/*255/320*/
+		height: 345px;
+		margin: 0 auto;
+		margin-top: 55px;
+		position: static;
+	}
+	.blockphone__phone{
+		position: relative;
+		top:-20px;
+		width: 74.38%;
+		min-width: 238px;
+		margin: 0 auto;
+	}
+	.blockphone__contacts{
+		position: relative;
+		left: 0;
+		bottom: 32px;
+	}
+	.yellow-bg__blue{
+		bottom: 0;
+		margin-bottom: -281px;
+		left: 50%;
+		width: 79.69%; 
+		margin-left: -127.5px;
+	}
+	.mailing{
+		display: block;
+		width: 73.48%;/*235/320*/
+		margin: 0 auto;
+		margin-top: 316px;
+	}
+	.mailing__text__input{
+		padding-top: 10px;
+	}
+	.mailing__text{
+		display: block;
+		line-height: 25px;
+	}
+	input[type = "email"]{
+		height: 20px;	
+	}
+	input[type = "submit"]{
+		margin-left: 0;
+		position: relative;
+		left: 199px;
+		bottom: 18px;
+		width: 36px;
+		height: 36px;
+	}
+	.notification{
+		top: 90px;
+		font-size: 14px;
+		line-height: 14px;
+	}
+	footer{
+		margin: 0 auto;
+		margin-top: 20px;
+		margin-bottom: 25px;
+}
+@media screen and (max-width: 360px){
+	.yellow-bg__blue{
+		width: 255px;
+	}
+	.mailing{
+		width: 235px;
+	}
+}

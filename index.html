@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+	 <link href="https://fonts.googleapis.com/css?family=Rubik&amp;subset=cyrillic" rel="stylesheet"><!-- Font Rubik -->
+	 <link rel="stylesheet" href="css/reset.css">
+	 <link rel="stylesheet" href="css/main.css">
+	  <link rel="stylesheet" href="css/media.css">
+	<title>Рушай</title>
+</head>
+<body>
+	<div class="container">	
+		<div class="yellow-bg">
+			<div class="top-spline spline">
+				<img src="img/ic_path.svg" alt="spline">
+			</div>
+			<div class="info">
+				<div class="info__logo">
+					<img src="img/ic_logo.svg" alt="logo">
+				</div>
+				<p class="info__toptext">
+					Порівнюй. Обирай.
+				</p>
+				<div class="info__rushai">
+					<img src="img/ic_rushai_splash.svg" alt="rushai">
+				</div>
+				<div class="d-flex">
+					<div class="d-flex-left">
+						<p class="info__bottomtext">
+							Хочеш замовити таксі?<br>
+							Порівнюй ціни різноманітних сервісів, обирай оптимальну та замовляй через наш Android додаток.
+						</p>
+						<div class="info__googleplay">
+							<div class="info__googleplay-hand">
+								<img src="img/ic_hand@2x.png" alt="click">
+							</div>
+							<a class="info__googleplay-btn" href="#">
+								<img src="img/ic_google@2x.png" alt="google play">
+							</a>
+						</div>
+					</div>
+					<div class="d-flex-right blue">
+						<h3>Під капотом</h3>
+						<ul>
+							<li>Визначення шляху</li>
+							<li>Інтеграція с сервісами таксі,<br> UBER, Uklon</li>
+							<li>Супровід під час поїздки</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="blockphone">
+				<a class="blockphone__facebook facebook-large" href="#">
+					<span>Поширити</span>
+					<img src="img/ic_facebook_norm.svg" alt="facebook">
+				</a>
+				<div class="blockphone__phone">
+					<img src="img/phone@2x.png" alt="phone">
+				</div>
+				<div class="blockphone__contacts">
+					<span>Контакти:</span> 
+					<a href="mailto:sayhello@rushai.com">sayhello@rushai.com</a>
+				</div>
+				<div class="blockphone__bottom-spline spline">
+					<img src="img/ic_path.svg" alt="spline">
+				</div>
+			</div>
+			<!-- Blocks for adaptive -->
+			<div class="yellow-bg__blue blue">
+				<h3>Під капотом</h3>
+				<ul>
+					<li>Визначення шляху</li>
+					<li>Інтеграція с сервісами таксі,<br> UBER, Uklon</li>
+					<li>Супровід під час поїздки</li>
+				</ul>
+			</div>
+			<a class="blockphone__facebook facebook-small" href="#">
+				<span>Поширити</span>
+				<img src="img/ic_facebook_norm.svg" alt="facebook">
+			</a>
+			<!---->
+		</div>
+		<form class="mailing" action="#" name="mailing">
+			<div class="mailing__text">
+				<div class="mailing__text__input">
+					<p>Я,</p>
+					<input id="email" type="email" name="usermail" autocomplete="off" required value="">
+				</div>
+				<p>хочу отримувати листи про оновлення та нові функції додатку</p>
+			</div>
+			<input id="submit" type="submit" value="">
+			<p id="notification" class="notification">Ви успішно піписались на RUSHAI розсилку!</p>
+		</form>
+		<footer>
+			<p>© 2013-2018 Rushai. All rights reserved.</p>
+		</footer>
+	</div>
+	<script src="js/main.js"></script>
+</body>
+</html>
