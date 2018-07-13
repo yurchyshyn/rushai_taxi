@@ -153,6 +153,18 @@
 		margin-left: 25px;
 	}
 }
+@media screen and (max-width: 750px){
+	.mailing__text-want{
+		width: 240px;
+	}
+	input[type = "email"]{
+		height: 20px;
+	}
+	.notification{
+		top:50px;
+		left: 60px;
+	}
+}
 @media screen and (max-width: 730px){
 	.info{
 		width: 48%;
@@ -162,10 +174,27 @@
 		left: 47%;/*343/700*/
 	}
 	input[type = "email"]{
-		width: 190px;	
+		width: 190px;
+		height: 20px;
+		margin-top: 0px;
 	}
 	.yellow-bg__blue{
 		left: 5%;
+	}
+	.mailing__text__input-i{
+		padding-top: 5px;
+	}
+	.mailing__text-want{
+		width: 225px;
+		padding-top: 10px;
+		align-self: center;
+	}
+	.mailing__text__input{
+		margin-top: 10px;
+	}
+	.notification{
+		top:50px;
+		left: 80px;
 	}
 }
 @media screen and (max-width: 576px){
@@ -255,7 +284,8 @@
 		line-height: 25px;
 	}
 	input[type = "email"]{
-		height: 20px;	
+		line-height: 14px;
+		margin-top: 4px;
 	}
 	input[type = "submit"]{
 		margin-left: 0;
@@ -266,13 +296,14 @@
 		height: 36px;
 	}
 	.notification{
-		top: 90px;
+		top: 120px;
+		left: 0;
 		font-size: 14px;
 		line-height: 14px;
 	}
 	footer{
 		margin: 0 auto;
-		margin-top: 20px;
+		margin-top: 30px;
 		margin-bottom: 25px;
 }
 @media screen and (max-width: 360px){
