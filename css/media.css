@@ -149,7 +149,7 @@
 	.blockphone__phone{
 		margin-left: -25px;
 	}
-	.blockphone__facebook{
+	.blockphone__social{
 		margin-left: 25px;
 	}
 }
@@ -211,14 +211,11 @@
 	.yellow-bg{
 		margin-top: 20px;
 	}
-	.facebook-small{
+	.social-small{
 		display: flex;
 		position: absolute;
 		top:0;
-		right: 85px;
-	}
-	.facebook-large{
-		display: none;
+		right: 12px;
 	}
 	.d-flex{
 		margin-top: 31px;

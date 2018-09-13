@@ -167,24 +167,25 @@ a{
 	box-shadow: 14px 20px 28px 0 rgba(0,0,0,0.56);
 }
 
-.blockphone__facebook{
+.blockphone__social{
 	display: flex;
 	align-items: center;
-	width: 20px;
-	height: 20px;
 	margin-top: 15px;
 	margin-left: 20px;
-	transition: opacity 1s;
 }
 
-.blockphone__facebook span{
+.blockphone__social span{
 	font-size: 12px;
-	padding-right: 11px;
-	color: #000;
-	transition: text-decoration 1s;
+	margin-right: 10px;
 }
 
-.blockphone__facebook:hover{
+.blockphone__social a{
+	width: 24px;
+	margin-right: 6px;
+	transition: opacity .5s;
+}
+
+.blockphone__social a:hover{
 	opacity: 0.7;
 }
 
